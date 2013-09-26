@@ -1,3 +1,5 @@
+package fund;
+
 public class Dollar {
     private int amount;
 
