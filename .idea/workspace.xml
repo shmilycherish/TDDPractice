@@ -9,12 +9,13 @@
     <ignored path="TDDPractice.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/pom.xml" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1379906128371" ignored="false" />
-    <file path="/MultiFundTest.java" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1380083049487" ignored="false" />
-    <file path="/Dummy.txt" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1380082604568" ignored="false" />
+    <file path="/MultiFundTest.java" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1380103562998" ignored="false" />
+    <file path="/Dummy.txt" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1380156176825" ignored="false" />
     <file path="/JUnit3 Test Method.txt.ft" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1379911286998" ignored="false" />
     <file path="/JUnit4 Test Method.txt.ft" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1379911301955" ignored="false" />
     <file path="/fragment.java" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1379911493030" ignored="false" />
-    <file path="/Dollar.java" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1380102351295" ignored="false" />
+    <file path="/Dollar.java" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1380103832576" ignored="false" />
+    <file path="/Franc.java" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1380103737597" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,10 +76,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MultiFundTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MultiFundTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MultiFundTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="33" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0">
+            <state line="11" column="53" selection-start="394" selection-end="394" vertical-scroll-proportion="0.2932961">
               <folding />
             </state>
           </provider>
@@ -93,10 +94,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dollar.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Dollar.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Dollar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="39" selection-start="339" selection-end="339" vertical-scroll-proportion="0.5898876">
+            <state line="13" column="27" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -123,6 +124,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/test/java/MultiFundTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Franc.java" />
         <option value="$PROJECT_DIR$/src/main/java/Dollar.java" />
       </list>
     </option>
@@ -161,6 +163,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -243,7 +246,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -269,7 +271,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MultiFundTest">
+  <component name="RunManager" selected="JUnit.MultiFundTest.multiplicationTest">
     <configuration default="false" name="MultiFundTest.multiplicationTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="TDDPractice" />
@@ -413,8 +415,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MultiFundTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MultiFundTest.multiplicationTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MultiFundTest.multiplicationTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MultiFundTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -462,14 +464,18 @@
       <created>1380035427293</created>
       <updated>1380035427293</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="all equals">
+      <created>1380102431635</created>
+      <updated>1380102431635</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="22" width="1260" height="690" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3263158" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32517484" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -480,19 +486,19 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298611" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24958813" sideWeight="0.67368424" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24958813" sideWeight="0.6748252" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982457" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298611" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -538,7 +544,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="alter test and implement to meet requirements" />
+    <option name="LAST_COMMIT_MESSAGE" value="all equals" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -556,6 +562,7 @@
     <MESSAGE value="refactor someplace" />
     <MESSAGE value="add statement to make the test did not pass" />
     <MESSAGE value="alter test and implement to meet requirements" />
+    <MESSAGE value="all equals" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -565,6 +572,27 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/MultiFundTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dollar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="27" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MultiFundTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -640,16 +668,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MultiFundTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dollar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="33" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0">
+        <state line="13" column="27" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Dollar.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/MultiFundTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="39" selection-start="339" selection-end="339" vertical-scroll-proportion="0.5898876">
+        <state line="11" column="53" selection-start="394" selection-end="394" vertical-scroll-proportion="0.2932961">
           <folding />
         </state>
       </provider>
