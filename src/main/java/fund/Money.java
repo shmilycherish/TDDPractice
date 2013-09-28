@@ -1,6 +1,6 @@
 package fund;
 
-public class Money {
+public abstract class Money {
     protected int amount;
 
     public Money(int amount) {
@@ -12,4 +12,10 @@ public class Money {
         Money money = (Money) o;
         return amount == money.amount  && getClass().equals(money.getClass());
     }
+
+    public static Money dollar(int amount) {
+        return new Dollar(amount);
+    }
+
+    public abstract Money times(int amount);
 }
