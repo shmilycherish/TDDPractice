@@ -2,6 +2,7 @@ package fund;
 
 public abstract class Money {
     protected int amount;
+    protected String currency;
 
     public Money(int amount) {
         this.amount = amount;
@@ -22,5 +23,8 @@ public abstract class Money {
     }
 
     public abstract Money times(int amount);
-    public abstract String currency();
+
+    public String currency() {
+        return currency;
+    }
 }
