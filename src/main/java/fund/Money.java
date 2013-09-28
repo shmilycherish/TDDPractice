@@ -17,9 +17,10 @@ public abstract class Money {
         return new Dollar(amount);
     }
 
-    public abstract Money times(int amount);
-
     public static Franc franc(int amount) {
         return new Franc(amount);
     }
+
+    public abstract Money times(int amount);
+    public abstract String currency();
 }
