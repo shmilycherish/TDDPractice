@@ -4,20 +4,18 @@
     <list default="true" id="4ee92487-e3e6-4392-9d21-63b50337eae4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fund/Dollar.java" afterPath="$PROJECT_DIR$/src/main/java/fund/Dollar.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fund/Franc.java" afterPath="$PROJECT_DIR$/src/main/java/fund/Franc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fund/Money.java" afterPath="$PROJECT_DIR$/src/main/java/fund/Money.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/MultiFundTest.java" afterPath="$PROJECT_DIR$/src/test/java/MultiFundTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TDDPractice.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/pom.xml" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1379906128371" ignored="false" />
     <file path="/MultiFundTest.java" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1380381017989" ignored="false" />
-    <file path="/Dummy.txt" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1380380690887" ignored="false" />
+    <file path="/Dummy.txt" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1380381053017" ignored="false" />
     <file path="/JUnit3 Test Method.txt.ft" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1379911286998" ignored="false" />
     <file path="/JUnit4 Test Method.txt.ft" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1379911301955" ignored="false" />
     <file path="/fragment.java" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1380156555009" ignored="false" />
-    <file path="/Dollar.java" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1380380952742" ignored="false" />
-    <file path="/Franc.java" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1380380936613" ignored="false" />
+    <file path="/Dollar.java" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1380381135021" ignored="false" />
+    <file path="/Franc.java" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1380381173240" ignored="false" />
     <file path="/Money.java" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1380380375350" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,10 +77,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MultiFundTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MultiFundTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/MultiFundTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="34" selection-start="1132" selection-end="1132" vertical-scroll-proportion="1.091922">
+            <state line="34" column="34" selection-start="1132" selection-end="1132" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,10 +97,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Franc.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Franc.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/fund/Franc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="21" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0">
+            <state line="17" column="23" selection-start="330" selection-end="330" vertical-scroll-proportion="0.7075209">
               <folding />
             </state>
           </provider>
@@ -111,7 +109,7 @@
       <file leaf-file-name="Dollar.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fund/Dollar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="21" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0">
+            <state line="17" column="23" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -150,9 +148,9 @@
         <option value="$PROJECT_DIR$/src/main/java/Dollar.java" />
         <option value="$PROJECT_DIR$/src/main/java/Franc/Franc.java" />
         <option value="$PROJECT_DIR$/src/main/java/fund/Money.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fund/Franc.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fund/Dollar.java" />
         <option value="$PROJECT_DIR$/src/test/java/MultiFundTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fund/Dollar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fund/Franc.java" />
       </list>
     </option>
   </component>
@@ -599,7 +597,11 @@
       <created>1380380696859</created>
       <updated>1380380696859</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add currency method">
+      <created>1380381064415</created>
+      <updated>1380381064415</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -626,7 +628,7 @@
     <frame x="387" y="35" width="1260" height="690" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32105264" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32105264" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -695,7 +697,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="add currency method" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -718,6 +720,7 @@
     <MESSAGE value="add Franc" />
     <MESSAGE value="add different test and make test pass" />
     <MESSAGE value="refactor" />
+    <MESSAGE value="add currency method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -824,26 +827,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MultiFundTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="34" selection-start="1132" selection-end="1132" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fund/Dollar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="21" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0">
+        <state line="17" column="23" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fund/Franc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="21" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0">
+        <state line="17" column="23" selection-start="330" selection-end="330" vertical-scroll-proportion="0.7075209">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MultiFundTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="34" selection-start="1132" selection-end="1132" vertical-scroll-proportion="1.091922">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
