@@ -18,4 +18,8 @@ public abstract class Money {
     }
 
     public abstract Money times(int amount);
+
+    public static Franc franc(int amount) {
+        return new Franc(amount);
+    }
 }
