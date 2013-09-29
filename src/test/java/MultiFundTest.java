@@ -10,8 +10,8 @@ public class MultiFundTest {
     @Test
     public void multiplicationTest() throws Exception {
         Money five = Money.dollar(5);
-        assertEquals(Money.dollar(10), five.times(2));
-        assertEquals(Money.dollar(15), five.times(3));
+        assertTrue(Money.dollar(10).equals(five.times(2)));
+        assertTrue(Money.dollar(15).equals(five.times(3)));
     }
 
     @Test
@@ -32,7 +32,13 @@ public class MultiFundTest {
 
     @Test
     public void currencyTest() throws Exception {
-        assertEquals("USD", Money.dollar(1).currency());
-        assertEquals("CHF", Money.franc(1).currency());
+        assertTrue("USD".equals(Money.dollar(1).currency()));
+        assertTrue("CHF".equals(Money.franc(1).currency()));
+    }
+
+    @Test
+    public void differentTest() throws Exception {
+        assertTrue(new Money(10, "CHF").equals(new Franc(10, "CHF")));
+
     }
 }

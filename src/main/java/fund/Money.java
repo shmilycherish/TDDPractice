@@ -1,6 +1,6 @@
 package fund;
 
-public abstract class Money {
+public class Money {
     protected int amount;
     protected String currency;
 
@@ -12,18 +12,20 @@ public abstract class Money {
     @Override
     public boolean equals(Object o) {
         Money money = (Money) o;
-        return amount == money.amount  && getClass().equals(money.getClass());
+        return amount == money.amount  && currency().equals(money.currency());
     }
 
     public static Money dollar(int amount) {
         return new Dollar(amount, "USD");
     }
 
-    public static Franc franc(int amount) {
+    public static Money franc(int amount) {
         return new Franc(amount, "CHF");
     }
 
-    public abstract Money times(int amount);
+    public  Money times(int multiplier){
+        return new Money(amount * multiplier, currency);
+    }
 
     public String currency() {
         return currency;
