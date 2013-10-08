@@ -30,4 +30,8 @@ public class Money {
     public String currency() {
         return currency;
     }
+
+    public Money plus(Money dollar) {
+        return new Money(amount+dollar.amount, currency);
+    }
 }
