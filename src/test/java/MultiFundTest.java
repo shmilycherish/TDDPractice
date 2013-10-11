@@ -1,7 +1,4 @@
-import fund.Bank;
-import fund.Expression;
-import fund.Franc;
-import fund.Money;
+import fund.*;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -49,6 +46,17 @@ public class MultiFundTest {
         Bank bank = new Bank();
         Money reduced = bank.reduce(sum, "USD");
         assertEquals(Money.dollar(10),reduced);
+    }
+
+    @Test
+    public void plusReturnSumTest() throws Exception {
+        Money five = Money.dollar(5);
+        Expression result = five.plus(five);
+        Sum sum = (Sum)result;
+        assertEquals(five, sum.augend);
+        assertEquals(five, sum.addend);
+
+
     }
 }
 
