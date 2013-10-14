@@ -55,7 +55,14 @@ public class MultiFundTest {
         Sum sum = (Sum)result;
         assertEquals(five, sum.augend);
         assertEquals(five, sum.addend);
+    }
 
+    @Test
+    public void reduceSumTest() throws Exception {
+        Expression sum = new Sum(Money.dollar(1), Money.dollar(2));
+        Bank bank = new Bank();
+        Money reduced = bank.reduce(sum, "USD");
+        assertEquals(Money.dollar(3),reduced);
 
     }
 }
