@@ -1,8 +1,8 @@
 package fund;
 
 public class Sum implements Expression {
-    public static Money augend ;
-    public static Money addend;
+    public  Money augend ;
+    public  Money addend;
 
     public Sum(Money augend, Money addend) {
        this.augend = augend;
@@ -10,7 +10,7 @@ public class Sum implements Expression {
     }
 
 
-    public static Money reduce(String to) {
+    public Money reduce(String to) {
         int amount = augend.amount + addend.amount;
         return new Money(amount, to);
     }

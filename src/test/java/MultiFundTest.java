@@ -63,7 +63,13 @@ public class MultiFundTest {
         Bank bank = new Bank();
         Money reduced = bank.reduce(sum, "USD");
         assertEquals(Money.dollar(3),reduced);
+    }
 
+    @Test
+    public void reduceMoneyTest() throws Exception {
+        Bank bank = new Bank();
+        Money result = bank.reduce(Money.dollar(1), "USD");
+        assertEquals(Money.dollar(1), result);
     }
 }
 
