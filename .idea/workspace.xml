@@ -3,27 +3,28 @@
   <component name="ChangeListManager">
     <list default="true" id="4ee92487-e3e6-4392-9d21-63b50337eae4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fund/Bank.java" afterPath="$PROJECT_DIR$/src/main/java/fund/Bank.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/MultiFundTest.java" afterPath="$PROJECT_DIR$/src/test/java/MultiFundTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fund/Sum.java" afterPath="$PROJECT_DIR$/src/main/java/fund/Sum.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fund/Expression.java" afterPath="$PROJECT_DIR$/src/main/java/fund/Expression.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fund/Money.java" afterPath="$PROJECT_DIR$/src/main/java/fund/Money.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TDDPractice.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/pom.xml" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1379906128371" ignored="false" />
     <file path="/MultiFundTest.java" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1381755567220" ignored="false" />
-    <file path="/Dummy.txt" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1381754858380" ignored="false" />
+    <file path="/Dummy.txt" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1381755661312" ignored="false" />
     <file path="/JUnit3 Test Method.txt.ft" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1379911286998" ignored="false" />
     <file path="/JUnit4 Test Method.txt.ft" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1379911301955" ignored="false" />
     <file path="/fragment.java" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1381499731879" ignored="false" />
     <file path="/Dollar.java" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1380461404507" ignored="false" />
     <file path="/Franc.java" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1380463771075" ignored="false" />
-    <file path="/Money.java" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1381499948038" ignored="false" />
+    <file path="/Money.java" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1381755784709" ignored="false" />
     <file path="$PROJECT_DIR$/../jsStudy/src/webapp/index.html" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1380441793088" ignored="false" />
     <file path="/index.html" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1380441533320" ignored="false" />
     <file path="$PROJECT_DIR$/../jsStudy/src/webapp/scroll.js" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1380441216282" ignored="false" />
-    <file path="/Bank.java" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1381755628387" ignored="false" />
+    <file path="/Bank.java" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1381755815054" ignored="false" />
     <file path="/Sum.java" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1381754776031" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/jdkAnnotations.jar!/java/lang/annotations.xml" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1381737259871" ignored="false" />
+    <file path="/Expression.java" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1381755764238" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,10 +85,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MultiFundTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MultiFundTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MultiFundTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="44" selection-start="2255" selection-end="2255" vertical-scroll-proportion="0.0">
+            <state line="66" column="4" selection-start="2047" selection-end="2047" vertical-scroll-proportion="0.8698225">
               <folding />
             </state>
           </provider>
@@ -120,10 +121,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bank.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Bank.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fund/Bank.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="57" selection-start="148" selection-end="148" vertical-scroll-proportion="0.17751479">
+            <state line="7" column="16" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -132,7 +133,7 @@
       <file leaf-file-name="Expression.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fund/Expression.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="17" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
+            <state line="3" column="28" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -141,7 +142,7 @@
       <file leaf-file-name="Money.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fund/Money.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="25" selection-start="848" selection-end="848" vertical-scroll-proportion="0.0">
+            <state line="39" column="20" selection-start="918" selection-end="918" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -159,7 +160,7 @@
       <file leaf-file-name="workspace.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="984" selection-end="984" vertical-scroll-proportion="0.0">
+            <state line="12" column="0" selection-start="992" selection-end="992" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -191,9 +192,10 @@
         <option value="$PROJECT_DIR$/src/main/java/fund/Dollar.java" />
         <option value="$PROJECT_DIR$/src/main/java/fund/Franc.java" />
         <option value="$PROJECT_DIR$/src/main/java/Franc/Expression.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fund/Money.java" />
         <option value="$PROJECT_DIR$/src/main/java/fund/Sum.java" />
         <option value="$PROJECT_DIR$/src/test/java/MultiFundTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fund/Expression.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fund/Money.java" />
         <option value="$PROJECT_DIR$/src/main/java/fund/Bank.java" />
       </list>
     </option>
@@ -347,7 +349,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MultiFundTest.reduceMoneyTest">
+  <component name="RunManager" selected="JUnit.MultiFundTest">
     <configuration default="false" name="MultiFundTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="TDDPractice" />
@@ -563,8 +565,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MultiFundTest.reduceMoneyTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MultiFundTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MultiFundTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MultiFundTest.reduceMoneyTest" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.MultiFundTest.reduceSumTest" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.MultiFundTest.simpleAdditionTest" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.MultiFundTest.currencyTest" />
@@ -679,7 +681,11 @@
       <created>1381754866941</created>
       <updated>1381754866941</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="add Money as Sum test">
+      <created>1381755665462</created>
+      <updated>1381755665462</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -775,7 +781,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor Sum and Bank" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Money as Sum test" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -805,6 +811,7 @@
     <MESSAGE value="add bank and expression" />
     <MESSAGE value="add Sum" />
     <MESSAGE value="refactor Sum and Bank" />
+    <MESSAGE value="add Money as Sum test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -851,7 +858,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="984" selection-end="984" vertical-scroll-proportion="0.0">
+        <state line="12" column="0" selection-start="992" selection-end="992" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -863,23 +870,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fund/Expression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fund/Dollar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fund/Money.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="25" selection-start="848" selection-end="848" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -891,13 +884,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MultiFundTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="44" selection-start="2255" selection-end="2255" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fund/Sum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="37" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
@@ -905,9 +891,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fund/Expression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="28" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fund/Money.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="20" selection-start="918" selection-end="918" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fund/Bank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="57" selection-start="148" selection-end="148" vertical-scroll-proportion="0.17751479">
+        <state line="7" column="16" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MultiFundTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="4" selection-start="2047" selection-end="2047" vertical-scroll-proportion="0.8698225">
           <folding />
         </state>
       </provider>
