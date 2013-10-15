@@ -23,7 +23,7 @@ public class Money implements Expression{
         return new Franc(amount, "CHF");
     }
 
-    public  Money times(int multiplier){
+    public  Expression times(int multiplier){
         return new Money(amount * multiplier, currency);
     }
 
@@ -31,7 +31,7 @@ public class Money implements Expression{
         return currency;
     }
 
-    public Expression plus(Money dollar) {
+    public Expression plus(Expression dollar) {
         return new Sum(this, dollar);
     }
 
