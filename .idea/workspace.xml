@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ee92487-e3e6-4392-9d21-63b50337eae4" name="Default" comment="">
+    <list default="true" id="4ee92487-e3e6-4392-9d21-63b50337eae4" name="Default" comment="refactor:remove type switch">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fund/Bank.java" afterPath="$PROJECT_DIR$/src/main/java/fund/Bank.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fund/Expression.java" afterPath="$PROJECT_DIR$/src/main/java/fund/Expression.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fund/Money.java" afterPath="$PROJECT_DIR$/src/main/java/fund/Money.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/MultiFundTest.java" afterPath="$PROJECT_DIR$/src/test/java/MultiFundTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fund/Sum.java" afterPath="$PROJECT_DIR$/src/main/java/fund/Sum.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TDDPractice.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/pom.xml" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1379906128371" ignored="false" />
-    <file path="/MultiFundTest.java" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1381755567220" ignored="false" />
-    <file path="/Dummy.txt" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1381755661312" ignored="false" />
+    <file path="/MultiFundTest.java" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1381843213098" ignored="false" />
+    <file path="/Dummy.txt" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1381844077956" ignored="false" />
     <file path="/JUnit3 Test Method.txt.ft" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1379911286998" ignored="false" />
     <file path="/JUnit4 Test Method.txt.ft" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1379911301955" ignored="false" />
     <file path="/fragment.java" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1381499731879" ignored="false" />
     <file path="/Dollar.java" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1380461404507" ignored="false" />
     <file path="/Franc.java" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1380463771075" ignored="false" />
-    <file path="/Money.java" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1381755784709" ignored="false" />
+    <file path="/Money.java" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1381843888409" ignored="false" />
     <file path="$PROJECT_DIR$/../jsStudy/src/webapp/index.html" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1380441793088" ignored="false" />
     <file path="/index.html" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1380441533320" ignored="false" />
     <file path="$PROJECT_DIR$/../jsStudy/src/webapp/scroll.js" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1380441216282" ignored="false" />
-    <file path="/Bank.java" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1381755815054" ignored="false" />
-    <file path="/Sum.java" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1381754776031" ignored="false" />
+    <file path="/Bank.java" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1381843917395" ignored="false" />
+    <file path="/Sum.java" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1381843820736" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/jdkAnnotations.jar!/java/lang/annotations.xml" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1381737259871" ignored="false" />
-    <file path="/Expression.java" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1381755764238" ignored="false" />
+    <file path="/Expression.java" changelist="4ee92487-e3e6-4392-9d21-63b50337eae4" time="1381843688672" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +41,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -75,7 +78,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -85,19 +87,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MultiFundTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MultiFundTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/MultiFundTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="4" selection-start="2047" selection-end="2047" vertical-scroll-proportion="0.8698225">
+            <state line="75" column="20" selection-start="2287" selection-end="2287" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sum.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Sum.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/fund/Sum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="37" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
+            <state line="13" column="25" selection-start="307" selection-end="307" vertical-scroll-proportion="0.57522124">
               <folding />
             </state>
           </provider>
@@ -124,7 +126,7 @@
       <file leaf-file-name="Bank.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fund/Bank.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="16" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
+            <state line="15" column="44" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -142,7 +144,7 @@
       <file leaf-file-name="Money.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fund/Money.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="20" selection-start="918" selection-end="918" vertical-scroll-proportion="0.0">
+            <state line="40" column="13" selection-start="966" selection-end="966" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -160,7 +162,7 @@
       <file leaf-file-name="workspace.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="992" selection-end="992" vertical-scroll-proportion="0.0">
+            <state line="17" column="0" selection-start="1673" selection-end="1673" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -192,18 +194,17 @@
         <option value="$PROJECT_DIR$/src/main/java/fund/Dollar.java" />
         <option value="$PROJECT_DIR$/src/main/java/fund/Franc.java" />
         <option value="$PROJECT_DIR$/src/main/java/Franc/Expression.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fund/Sum.java" />
         <option value="$PROJECT_DIR$/src/test/java/MultiFundTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/fund/Expression.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fund/Sum.java" />
         <option value="$PROJECT_DIR$/src/main/java/fund/Money.java" />
         <option value="$PROJECT_DIR$/src/main/java/fund/Bank.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
     <option name="y" value="22" />
-    <option name="width" value="1260" />
+    <option name="width" value="1280" />
     <option name="height" value="690" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -235,7 +236,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -322,6 +322,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -338,9 +339,9 @@
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -349,7 +350,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MultiFundTest">
+  <component name="RunManager" selected="JUnit.MultiFundTest.reduceDifferentCurrencyTest">
     <configuration default="false" name="MultiFundTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="TDDPractice" />
@@ -359,29 +360,6 @@
       <option name="MAIN_CLASS_NAME" value="MultiFundTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="MultiFundTest.currencyTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="TDDPractice" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MultiFundTest" />
-      <option name="METHOD_NAME" value="currencyTest" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -465,6 +443,29 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="MultiFundTest.reduceDifferentCurrencyTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="TDDPractice" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MultiFundTest" />
+      <option name="METHOD_NAME" value="reduceDifferentCurrencyTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -477,19 +478,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -518,6 +506,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -558,18 +559,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.MultiFundTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MultiFundTest.currencyTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MultiFundTest.simpleAdditionTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MultiFundTest.reduceSumTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MultiFundTest.reduceMoneyTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MultiFundTest.simpleAdditionTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MultiFundTest.reduceSumTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MultiFundTest.reduceMoneyTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MultiFundTest.reduceDifferentCurrencyTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MultiFundTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MultiFundTest.reduceMoneyTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MultiFundTest.reduceSumTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MultiFundTest.simpleAdditionTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MultiFundTest.currencyTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MultiFundTest.reduceDifferentCurrencyTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MultiFundTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MultiFundTest.reduceMoneyTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MultiFundTest.reduceSumTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MultiFundTest.simpleAdditionTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -685,7 +686,11 @@
       <created>1381755665462</created>
       <updated>1381755665462</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="refactor:remove type switch">
+      <created>1381755882652</created>
+      <updated>1381755882652</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -709,10 +714,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="22" width="1260" height="690" extended-state="0" />
+    <frame x="0" y="22" width="1280" height="690" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31754386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31578946" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -730,7 +735,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24958813" sideWeight="0.68245614" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24878444" sideWeight="0.68421054" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982457" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -781,7 +786,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Money as Sum test" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor:remove type switch" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -812,6 +817,7 @@
     <MESSAGE value="add Sum" />
     <MESSAGE value="refactor Sum and Bank" />
     <MESSAGE value="add Money as Sum test" />
+    <MESSAGE value="refactor:remove type switch" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -858,7 +864,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="992" selection-end="992" vertical-scroll-proportion="0.0">
+        <state line="17" column="0" selection-start="1673" selection-end="1673" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -884,9 +890,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fund/Sum.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/MultiFundTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="37" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
+        <state line="75" column="20" selection-start="2287" selection-end="2287" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -900,21 +906,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fund/Money.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="20" selection-start="918" selection-end="918" vertical-scroll-proportion="0.0">
+        <state line="40" column="13" selection-start="966" selection-end="966" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fund/Bank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="16" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
+        <state line="15" column="44" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MultiFundTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/fund/Sum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="4" selection-start="2047" selection-end="2047" vertical-scroll-proportion="0.8698225">
+        <state line="13" column="25" selection-start="307" selection-end="307" vertical-scroll-proportion="0.57522124">
           <folding />
         </state>
       </provider>
